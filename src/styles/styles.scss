@@ -1,0 +1,41 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  body, html {
+    block-size: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    max-inline-size: 1440px; margin-inline: auto;
+    background-color: hsl(218, 23%, 16%);
+    display: grid;
+    place-items: center;
+  }
+
+  .main {
+    background-color: hsl(217, 19%, 24%);
+    max-inline-size: 31rem;
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.7rem;
+    span {
+        display: inline-block;
+        background-color: darkgray;
+        block-size: 1px;
+        inline-size: 100%;
+        max-inline-size: 45%;
+    }
+  }
+
+  
+
+  
